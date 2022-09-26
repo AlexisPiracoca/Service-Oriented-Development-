@@ -18,7 +18,6 @@ public class EstudianteService {
         return estudianteRepository.save(estudianteEntity);
     }
 
-
     public List<EstudianteEntity> getAllEstudiante(){
         return estudianteRepository.findAll();
     }
